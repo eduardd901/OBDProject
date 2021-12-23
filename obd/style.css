@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    padding: 10px 20px;
+    color: darkorange;
+    background-color: lightslategray;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+li>a {
+    display: block;
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+    color: lightslategrey;
+}
+
+a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+a:hover {
+    -webkit-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+}
+
+.heading {
+    color: lightslategray;
+    font-size: 50pt;
+}
+
+a::after {
+    content: '';
+    background-color: #F4B02B;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 0px;
+    -webkit-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+}
+
+li:hover {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: darkorange;
+    background-color: darkorange;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+body {
+    background: -webkit-gradient(linear, left top, left bottom, from(#141e30), to(#243b55));
+}
+
+html {
+    font-family: 'Shippori Antique B1', sans-serif;
+    height: 100%;
+}
+
+button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: inline-block;
+    padding: 10px 20px;
+    color: darkorange;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    outline: none;
+    border: none;
+    background-color: #000;
+}
+
+button:hover {
+    background: orange;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 5px orange, 0 0 25px orange, 0 0 50px orange, 0 0 100px orange;
+    box-shadow: 0 0 5px orange, 0 0 25px orange, 0 0 50px orange, 0 0 100px orange;
+}
+
+input {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.list {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+}
+
+select {
+    background-color: #141e30;
+    color: darkorange;
+    display: block;
+    margin: 0 auto;
+}
